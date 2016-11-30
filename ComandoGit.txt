@@ -1,0 +1,113 @@
+c:\Users\Leandro>
+
+Git CMD será a ferramenta utilizada para manupular o Git localmente
+
+c:\Users\Leandro>cd workspace
+c:\Users\Leandro\workspace>cd SistemaLeilao
+
+c:\Users\Leandro\workspace\SistemaLeila>dir
+>>dir verifica conteudo
+
+c:\Users\Leandro\workspace>git
+
+c:\Users\Leandro\workspace>git init
+
+c:\Users\Leandro\workspace>git status
+
+c:\Users\Leandro\workspace>git add --all
+
+c:\Users\Leandro\workspace>git status
+
+c:\Users\Leandro\workspace>git commit -m "Sistema leilão - versão 1.0"
+
+c:\Users\Leandro\workspace>git status
+
+c:\Users\Leandro\workspace>git log
+
+
+Criando o repositorio no Githug... Remoto
+
+https://github.com/Leandror007/RevisaoESOF/tree/master
+
+
+c:\Users\Leandro\workspace>git log
+
+c:\Users\Leandro\workspace>git remote add origin https://github.com/Leandror007/RevisaoESOF/tree/master
+
+c:\Users\Leandro\workspace>git push origin master
+
+c:\Users\Leandro\workspace>git branch
+
+c:\Users\Leandro\workspace>git branch menorLance
+
+c:\Users\Leandro\workspace>git branch
+*master
+ menorLance
+
+c:\Users\Leandro\workspace>git checkout menorLance
+
+c:\Users\Leandro\workspace>git branch
+  master
+* menorLance
+
+c:\Users\Leandro\workspace>git remote add menorLance
+
+c:\Users\Leandro\workspace>git push origin menorLance
+
+-------------------------------------------------------------------------------------
+File -> Import -> Existing project into workspace ___ Next -> SistemaLeila -> Finish
+Alterando o código
+-------------------------------------------------------------------------------------
+Teste Inicial - Versão
+-------------------------------------------------------------------------------------
+Mudar o valor no projeto eclipse ou codigo
+Teste pronto e corrigido
+
+Finalizando as alterações - Versão 2
+-------------------------------------------------------------------------------------
+c:\Users\Leandro\workspace>git branch
+
+c:\Users\Leandro\workspace>git log
+
+c:\Users\Leandro\workspace>git status
+
+c:\Users\Leandro\workspace>git add --all
+
+c:\Users\Leandro\workspace>git commit -m "Nova funcionalidade ...ok"
+
+c:\Users\Leandro\workspace>git push origin menorLance
+
+--------------------------------------------------------------------
+Verificar mais uma vez a pagina do git
+--------------------------------------------------------------------
+
+c:\Users\Leandro\workspace>git checkout master
+
+c:\Users\Leandro\workspace>git status
+
+c:\Users\Leandro\workspace>git log
+
+c:\Users\Leandro\workspace>git merge menorLance
+
+c:\Users\Leandro\workspace>git add --all
+
+c:\Users\Leandro\workspace>git commit -m "Sistema Leilao - versao 2.0!"
+
+c:\Users\Leandro\workspace>git push origin master
+
+c:\Users\Leandro\workspace>git add --all
+
+c:\Users\Leandro\workspace>git commit -m "Sistema Leilao - versao 2.0!"
+
+c:\Users\Leandro\workspace>git push origin master
+
+c:\Users\Leandro\workspace>git push origin master
+
+
+
+
+
+c:\Users\Leandro\workspace>
+
+
+
